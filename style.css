@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    height:100vh;
+    width: 100%;
+    background-image: url(image1forbg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav{
+    margin:  auto;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+.fullborder{
+    border-bottom: 1px solid rgb(55, 151, 210);
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
+.nr{
+    float: right;
+    display: flex;
+    margin: 16px 16px;
+}
+#logo{
+    font-size: 26px;
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(107, 163, 212); 
+}
+#logo:hover{
+    font-size: 27px;
+    color:rgb(46, 111, 169) ;
+    transition-duration:0.5s;
+    font-weight: bold;
+}
+.nav a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+    color: white;
+}
+.subnavA{
+    position: relative;
+    display: inline-block;  
+}
+.sevisemenu{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    padding: 0 20px;
+}
+.subnavA-content{
+  display: none;
+  position: absolute;
+  min-height: 115px;
+  z-index: 1;
+  background-color: #f1f1f1;
+}
+.subnavA-content a{
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+.subnavA:hover .subnavA-content{display: block;}
+.subnavA-content a:hover{background-color: rgb(178, 209, 209);}
+/* nav color hover*/
+#c1:hover{
+    color:rgb(107, 163, 212); 
+    transition-duration:0.5s;
+}
+#c2:hover{
+    color:rgb(107, 163, 212); 
+    transition-duration:0.5s;
+}
+#c3:hover{
+    color:rgb(107, 163, 212); 
+    transition-duration:0.5s;
+}
+/*the content*/
+.content{
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    justify-content: center;
+    align-items: center;  
+}
+.content h1{
+    font-size: 76px;
+    text-align: center;
+    color: rgb(161, 211, 253);
+}
+.content p{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.content button{
+    text-align: center;
+    width: 170px;
+    padding: 20px 20px;
+    background-color: rgb(125, 189, 28);
+    border-radius: 35px;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+.content button:hover{
+    background-color: rgb(79, 145, 63);
+    transition-duration:0.5s;
+}
+.centerbtn{
+    text-align: center;
+    margin-top: 45px;
+}
+/*second section*/
+.header2{
+height:100vh;
+width: 100%;
+}
+.content2{
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    background-color: rgb(131, 195, 35);
+    height: 35%;
+}
+.apple{
+    text-align: center;
+    margin-top: 70px;
+}
+.content2 h2{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 32px;
+}
+.content2 p{
+    text-align: center;
+    margin: 0 30%;
+    margin-top: 20px;
+    color: white;
+    font-size: 17px;
+}
+
+/*image 1*/
+.forimg1{
+    display: flex;
+    position: relative;
+    top: 35%;
+}
+.forimg1 img{
+    margin-top: 100px;
+    margin-left: 14%;
+    width: 550px;
+    height: 370px;
+    border-radius: 60%;
+    box-sizing: border-box;
+}
+.img-content{
+    padding-left: 70px;
+    margin-top: 150px;
+}
+.img-content h2{
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+.img-content p{
+    font-size: 26px;
+    color: gray;
+}
+.img-content button{
+    padding: 16px 24px;
+    margin:30px 0 0 15px;
+    background-color: rgb(82, 220, 54);
+    border-radius: 25px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+.imgbtn:hover{
+    background-color: rgb(2, 167, 2);
+    transition-duration:0.5s;
+}
+/*therd section*/
+.header3{
+    width: 100%;
+    height: auto;
+}
+.rimg{
+    display: flex;
+    background-color: rgb(53, 53, 53);
+    padding-bottom: 90px;
+}
+.img-content2{
+    padding-left:16%;
+    margin-top: 150px;
+}
+.img-content2 h2{
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.img-content2 p{
+    color: white;
+    font-size: 24px;
+}
+.imgbtn2{
+    padding: 16px 24px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 35px;
+}
+.forimg2 img{
+    margin-top: 100px;
+    margin-left: 14%;
+    width: 550px;
+    height: 370px;
+    border-radius: 60%;
+    box-sizing: border-box;
+}
+/*the 3 images*/
+.row{
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 100%;
+    overflow: hidden; 
+    text-align: center;
+    color: white;
+}
+.timg {
+    width: 33.33%;
+    height: 165px;
+    flex-wrap: wrap;
+}
+.timg{
+    position: relative;
+}
+.timg:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition-duration:0.3s;
+}
+.centered-text1 {
+    position: absolute;
+    left: 250px;
+    top:70px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.centered-text2 {
+    position: absolute;
+    left: 235px;
+    top:70px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.centered-text3 {
+    position: absolute;
+    left: 225px;
+    top:70px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.lastP{
+    width: 100%;
+    align-items: center;
+}
+.keylogo{
+    text-align: center;
+    margin-top: 70px;
+}
+.lastP h2{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+}
+.lastP p{
+    text-align: center;
+    margin: 0 30%;
+    margin-top: 20px;
+    font-size: 24px;
+}
+.lastPbtn{
+   text-align: center;
+   margin-top: 30px;
+}
+.lastPbtn button{
+    background-color: rgb(120, 205, 17);
+    padding: 20px 30px;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.lasts{
+    height:auto;
+    width: 100%;
+}
+.contactUS{
+    text-align: center;
+    position: relative;
+    height: 430px;
+    width: 100%;
+    background-color: rgb(137, 200, 43);
+    margin-top: 45px;
+}
+.centeralign h2{
+    padding-top: 90px;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.centeralign p{
+    margin: 30px 0;
+    font-size: 24px;
+}
+.footer{
+    text-align: center;
+    margin: 60px 0;
+    color: black;
+}
